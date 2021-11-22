@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> Checkout </h2>
+
+<div class="row">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>contact information</h3>
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="Enter your email...">
+            <label for="phone"><i class="fa fa-institution"></i> phone</label>
+            <input type="text" id="phone" name="phone" placeholder="Enter your phone...">
+            <h3>shipping address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="enter your full name...">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="Enter your address...">
+            <label for="city"><i class="fa fa-institution"></i> city</label>
+            <input type="text" id="city" name="city" placeholder="enter your city...">
+
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">country</label>
+                <input type="text" id="state" name="country" placeholder="Norway">
+              </div>
+              <div class="col-50">
+                <label for="zip">post code</label>
+                <input type="text" id="zip" name="postcode" placeholder="enter your postal code">
+              </div>
+            </div>
+          </div>
+
+        
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> see this information next time
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  <div id="products-preview">
+    <div id="product-painel">
+    <div class="product">
+    <img src="IMG/photo1.png" alt="">
+    <div class="product-info">
+    <h2>Vintage Backbag</h2>
+    <p><strong>$54.99</strong> <span class="line-through">$94.99</span></p>
+    
+    
+    
+    <div class="quantity-controller">
+    <button>
+    <i class="fas fa-minus"></i>
+    </button>
+    <p>1</p>
+    <button>
+    <i class="fas fa-plus"></i>
+    </button>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+    <div class="product">
+    <img src="IMG/photo2.png" alt="">
+    <div class="product-info">
+    <h2>Levi Shoes</h2>
+    <p><strong>$74.99</strong> <span class="line-through">$124.99</span></p>
+    
+    
+    
+    <div class="quantity-controller">
+    <button>
+    <i class="fas fa-minus"></i>
+    </button>
+    <p>1</p>
+    <button>
+    <i class="fas fa-plus"></i>
+    </button>
+    </div>
+    </div>
+    </div>
+    
+    
+    
+    <div class="buy-detail" id="shipping">
+    <p>Shipping</p>
+    <p>$19</p>
+    </div>
+    <div class="buy-detail" id="total">
+    <p>Total</p>
+    <p>$148.98</p>
+    </div>
+    </div>
+    
+    
+    
+    </div>
+</div>
+
+
+    
+</body>
+</html>
